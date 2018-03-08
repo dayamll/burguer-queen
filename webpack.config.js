@@ -17,7 +17,7 @@ module.exports = (env) => {
   return {
 
     entry: {
-      "platzi-video": path.resolve(__dirname, 'index.js'),
+      "burguer-queen": path.resolve(__dirname, 'index.js'),
     },
     output: {
       path: path.resolve(__dirname, 'dist'),
@@ -26,7 +26,7 @@ module.exports = (env) => {
       chunkFilename: 'js/[id].[chunkhash].js',
     },
     devServer: {
-      port: 9000,
+      port: 4000,
     },
     module: {
       rules: [

@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDom from 'react-dom';
+import App from './src/App.js';
+import './index.css';
 
 const app = document.getElementById('app');
-const holaMundo = <h1>hola mundo!</h1>;
-
-ReactDom.render(holaMundo, app);
+ReactDom.render(<App />, app);
